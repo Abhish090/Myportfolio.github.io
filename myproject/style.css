@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Nunito:wght@200&display=swap');
+
+.sidebar {
+    background-color: rgb(160, 155, 155);
+
+    font-family: 'Nunito', sans-serif;
+    transition: transform 0.3s ease-in;
+    margin: -8px;
+    height: 100vh;
+    padding: 30px;
+
+}
+
+.sidebarGo {
+    transform: translate(-240px 0);
+    position: absolute;
+    margin-left: -738px
+}
+
+
+/* .sidebar{
+    transform: translate(-240px 0);
+    position: absolute;
+} */
+
+.intro h1 {
+    color: rgb(16, 128, 141);
+}
+
+.close {
+
+
+    margin-left: 218px;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    left: 5px;
+    top: 0px;
+
+}
+
+.intro h2 {
+    color: rgb(16, 128, 141);
+}
+
+.Blogcontainer {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.blogitem h1 {
+    font-family: 'Cinzel', serif;
+    justify-content: center;
+}
+
+
+.h2 {
+    margin: -9px;
+    font-family: 'Cinzel', serif;
+}
+
+.Contactform {
+    font-family: 'Nunito', sans-serif;
+    padding: 0px 24px;
+    padding: 38px;
+    width: 61vw;
+    margin: 0px -45px;
+}
+
+.Contactform h1 {
+    font-family: 'Cinzel', serif;
+    text-align: left;
+}
+
+.Contactform form div input {
+    padding: 4px 0px;
+    width: 18vw;
+    border-radius: 11px;
+    margin: 4px 0px;
+    font-size: 14px;
+    margin: 12px;
+}
+
+#emailHelp {
+    font-size: 10px;
+    color: darkgrey;
+    margin: 4px 0px 0px;
+    padding-bottom: 20px;
+
+}
+
+#form-check {
+    flex-direction: row;
+    margin: 0px 40px;
+}
+
+#form-check input {
+    width: 20px;
+
+}
+
+.sidebar nav {
+    padding: 20px;
+
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 21px;
+    padding: 18px;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main {
+    /* background-color: green; */
+    width: 57vw;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    padding: 21px;
+
+
+}
+
+.skill {
+    background-color: rgb(128, 122, 122);
+    width: 200px;
+    height: 6px;
+}
+
+.skillitem {
+    font-weight: bolder;
+}
+
+
+
+.skillContainer {
+    padding: -20px;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(149, 12, 164); */
+    width: 63vw;
+    height: 55vh;
+    margin: 165px;
+    display: flex;
+    margin-left: 15px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.devInfo {
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Hello {
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+.Name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+
+.About {
+    font-size: 29px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.btn {
+    font-size: 15px;
+    padding: 4px 10px;
+    border-radius: 24px;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+
+}
+
+.buttons button {
+    font-size: 15px;
+    padding: 8px 13px;
+    border-radius: 24px;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.buttons button :hover {
+    color: dodgerblue;
+    background-color: white;
+}
+
+
+.btn:hover {
+    color: dodgerblue;
+    background-color: white;
+}
+
+.buttons {
+    margin-top: 10px;
+
+}
+
+
+
+.supPic img {
+    height: 55vh;
+    margin: 100px;
+
+    margin-left: -40px;
+
+}
+
+.MoreAbout {
+    font-size: 24px;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hundred {
+    width: 250px;
+    background-color: mediumseagreen;
+
+}
+
+.seventy {
+    width: 100px;
+    background-color: mediumseagreen;
+
+}
+
+.fifty {
+    width: 190px;
+    background-color: mediumseagreen;
+
+}
+
+.t5 {
+    width: 150px;
+    background-color: mediumseagreen;
+
+}
+
+.service-grid {
+    background: #fcfcfc;
+}
+
+.service-title h4 {
+    position: relative;
+    display: inline-block;
+}
+
+.service-icon {
+    position: relative;
+}
+
+.service-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+}
+
+.about-info-text h2 {
+    margin-bottom: 23px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: .9;
+}
+
+.about-info-text p {
+    padding: 0 100px;
+    font-size: 18px;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.about-content p {
+    margin-bottom: 0;
+}
+
+.about-info-text a {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.service-icon i {
+    font-size: 40px;
+    color: #e8bc00;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.service-wrap {
+    border: 1px solid #e6e6e6;
+    padding: 50px 30px;
+    position: relative;
+}
+
+.service-wrap p {
+    position: relative;
+}
+
+.service-wrap:hover {
+    background-image: url(https://i.ibb.co/mykzQks/services1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+
+.service-wrap:hover:before {
+    background: rgba(0, 0, 0, 0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+}
+
+.service-wrap:hover h4,
+.service-wrap:hover p {
+    color: #fff;
+}
+
+.service-wrap h4 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.service-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+
+}
+
